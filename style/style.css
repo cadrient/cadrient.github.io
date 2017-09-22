@@ -1,5 +1,5 @@
 #navbar{
-  background-color: lightgrey;
+  background-color: grey;
   opacity:0.8;
   margin:0px;
   position: fixed;
@@ -19,6 +19,8 @@
 }
 body{
   background-image:url("../images/background.png");
+  position: relative;
+  min-height: 100%;
 }
 p{
   font-family: "Comic Sans MS";
@@ -33,15 +35,60 @@ p{
 }
 .footer{
   display:block;
-  margin:0px;
-  position:absolute;
-  bottom: 0px;
-  left:0px;
+  position:relative;
   background-color:grey;
-  width:100%;
+  width:101.236%;
+  bottom:-8px;
+  left:-8px;
   height:30px;
-  overflow:hidden;
+  overflow: hidden;
 }
-a:link, a:visited{
+p a:link,p a:visited{
   color:inherit;
+}
+h2{
+  text-align: center;
+  display: block;
+  color:black;
+  position: relative;
+  top:90px;
+  font-family: "Comic Sans MS", "Microsoft YaHei UI", "Meiryo";
+}
+.slink{
+  display:block;
+  position:relative;
+  margin:12px 50px;
+  height:120px;
+  width:600px;
+  border-radius: 50px 15px;
+
+}
+.slink:hover{
+  opacity:0.8;
+}
+#facebook{
+  float:left;
+  top:144px;
+  background-color:#3b5998;
+}
+#twitter{
+  float:right;
+  background-color:#4099ff;
+}
+#instagram{
+  float:left;
+  background-image: url("../images/instagram.jpg");
+  background-size: 600px 120px;
+}
+#edmodo{
+  float:right;
+  bottom:144px;
+  background-color:#4286f4;
+}
+h1{
+  color:white;
+  font-family: "Comic Sans MS";
+  text-align:center;
+  position: relative;
+  top:20px;
 }
