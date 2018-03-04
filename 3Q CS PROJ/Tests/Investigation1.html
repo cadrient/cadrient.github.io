@@ -169,6 +169,15 @@ top: 428px;
 </head>
 <body>
 <script>
+    var audio = new Audio("../Music/danganrompa.mp3");
+    audio.play();
+    audio.volume=0.075
+    var mute = function(){
+      audio.pause();
+    }
+    var resume = function(){
+      audio.play();
+    }
 		var par = document.getElementsByTagName("p")
 		var line = 0
 		var scene1 = function(){
